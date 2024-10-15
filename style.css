@@ -1,0 +1,317 @@
+body{
+    background:url(./images/concert.jpg);
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: black;
+    width: 88%;
+    height: 105px;
+    text-align: right;
+    padding: 0px 130px 0px 0px;
+    position: relative;
+    bottom: 8px;
+    left: 40px;
+    color: white;
+}
+
+
+.nav{
+    display: inline-block;
+    position: relative;
+    top: 24px;
+    right: 120px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    transition: 0.5s;
+    margin: 15px;
+}
+
+.nav:hover{
+    color: rgb(255, 255, 109);
+    cursor: pointer;
+}
+
+.login{
+    display: inline-block;
+    position: relative;
+    top: 24px;
+    right: 30px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    transition: 0.3s;
+}
+
+.login:hover{
+    color: #929292;
+    cursor: pointer;
+}
+
+
+.fa-user{
+    display: inline-block;
+    position: relative;
+    bottom: 14px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 7px 4px 7px;
+    border-radius: 50%;
+}
+
+.fa-facebook{
+    display: inline-block;
+    position: relative;
+    bottom: 14px;
+    left: 66px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.fa-instagram{
+    display: inline-block;
+    position: relative;
+    bottom: 14px;
+    left: 76px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-size: 68px;
+    font-weight: 800;
+    color: white;
+}
+
+img{
+    position: absolute;
+    right: 1685px;
+    cursor: pointer;
+}
+
+h2{
+    position: relative;
+    top: 90px;
+    font-size: 55px;
+    color: rgb(255, 255, 109);
+}
+
+.info{
+    position: relative;
+    top: 170px;
+    display: inline-block;
+    margin: 0px 98px 0px 80px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 109);
+    
+}
+
+.data1{
+    position: relative;
+    top: 160px;
+    display: inline-block;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(250, 250, 250);
+}
+
+form{
+    width:1750px ;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    background-color: rgba(0, 0, 0, 0.651);
+    left: 70px;
+    
+}
+
+
+button{
+    position: relative;
+    top: 210px;
+    right: 410px;
+    padding: 12px 300px 12px 300px;
+    background-color: rgb(255, 255, 119);
+    border: rgb(255, 255, 119) 2px solid;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: transparent;
+    color: rgb(255, 255, 119);
+}
+
+textarea{
+    position: relative;
+    text-align:top;
+    top: 140px;
+    left: 250px;
+    width: 630px ;
+    height: 80px;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    background: transparent;
+    border: white 2px solid ;
+    font-size: 15px;
+    color: white;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    overflow: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea:focus {
+    border: rgb(255, 255, 119)2px solid ; 
+}
+
+.leave1{
+    position: relative;
+    top: 30px;
+    left: 406px;
+    color: white;
+}
+
+.Email{
+    position: relative;
+    top: 60px;
+    left: 7px;
+    margin-right: 13px;
+    width: 278px;
+    padding: 0px 15px 0px 15px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: white 2px solid ;
+    font-size: 15px;
+    color: white;
+}
+
+.Email:focus{
+    border: rgb(255, 255, 119) 2px solid ; 
+}
+
+.Subject{
+    position: relative;
+    right: 54px;
+    top: 60px;
+    margin-left: 13px;
+    width: 278px;
+    padding: 0px 15px 0px 15px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: white 2px solid ;
+    font-size: 15px;
+    color: white;
+}
+
+.Subject:focus{
+    border: rgb(255, 255, 119)2px solid ; 
+}
+
+.emaill{
+    position: relative;
+    left: 51px;
+    top: 18px;
+    color: white;
+}
+
+.sub1{
+    position: relative;
+    left: 21px;
+    top: 18px;
+    color: white;
+}
+
+.FirstName{
+    position: relative;
+    right: 15px;
+    margin-left: 13px;
+    width: 278px;
+    padding: 0px 15px 0px 15px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: white 2px solid ;
+    font-size: 15px;
+    color: white;
+}
+
+.FirstName:focus{
+    border: rgb(255, 255, 119)2px solid ; 
+}
+
+.LastName{
+    position: relative;
+    right: 85px;
+    margin-left: 13px;
+    width: 278px;
+    padding: 0px 15px 0px 15px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: white 2px solid ;
+    font-size: 15px;
+    color: white;
+}
+
+.LastName:focus{
+    border: rgb(255, 255, 119)2px solid ; 
+}
+
+.fname{
+    position: relative;
+    bottom:40px ;
+    left: 83px;
+    color: white;
+}
+
+.lname{
+    position: relative;
+    bottom:40px ;
+    left: 13px;
+    color: white;
+}
+
+iframe{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    width: 92.75%;
+    height: 510px;
+}
+
+.footer{
+    position: relative;
+    top: 90px;
+    left: 760px;
+    color: white;
+}
+
+textarea{
+    resize: none;
+}
